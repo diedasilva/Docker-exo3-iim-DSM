@@ -13,6 +13,6 @@ jobs:
         host: ${{ secrets.DSM_D }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: "${{ secrets.PORT }}"
+        port: ${{ secrets.PORT }}
         source: "index.html"
         target: ${{ secrets.TARGET }}
